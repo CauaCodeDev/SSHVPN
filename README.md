@@ -1,42 +1,34 @@
 # Ativar senha root
 
-Para ativar root em seu servidor, é necessário executar o comando abaixo:
+Para ativar root em seu servidor, execute o comando abaixo:
 
 ```markdown
 wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/ativar_senha_root.sh | bash
 ```
 
+
 # Ativar MySQL e PHP
 
-Para ativar o MySQL e o PHP, execute os seguintes comandos:
+Para ativar o MySQL e o PHP, execute o comando abaixo:
 
 ```bash
-sudo apt-get install mysql-server
-sudo apt-get install php
+wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/mysql_php.sh | bash
 ```
 
-[**Copiar Comando**](#)
 
-# Ativar Node.js v16 e Chrome Atualizado
+# Ativar Node.js v16 e Chrome
 
 Para ativar o Node.js v16 e garantir que o Chrome esteja atualizado, utilize os seguintes comandos:
 
 ```bash
-nvm install 16
-sudo apt-get update && sudo apt-get upgrade google-chrome-stable
+wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/nodev16_chrome.sh | bash
 ```
 
-[**Copiar Comando**](#)
 
-# Restaurar Backup SQL
+# Restaurar backup SQL
 
-Para restaurar um backup SQL, use o seguinte comando (substitua `nome-do-arquivo.sql` pelo nome do seu arquivo de backup):
+Para restaurar um backup SQL, use o comando abaixo e insira o arquivo .sql no diretório atual:
 
 ```bash
-mysql -u seu-usuario -p sua-base-de-dados < nome-do-arquivo.sql
+wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/restaurar_backup_sql.sh | bash
 ```
-
-[**Copiar Comando**](#)
-```
-
-Lembre-se de que os links "Copiar Comando" (#) não copiam automaticamente o comando, mas você pode criar um mecanismo para copiar o comando usando JavaScript, se desejar. Isso fornecerá um guia útil para executar comandos em seu servidor. Certifique-se de personalizar as informações conforme necessário para se adequar ao seu ambiente e requisitos específicos.
