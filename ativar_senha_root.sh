@@ -4,6 +4,11 @@ sudo -i
 
 echo -ne "\033[1;32mDigite sua nova senha root\033[1;37m: "; read senha
 
+if [ -z "$senha" ]; then
+   echo "Senha vazia, defina uma senha valida!"
+   exit 1
+fi
+
  $(grep -c "prohibit-password" /etc/ssh/sshd_config) != '0'  && {
 	sed -i "s/prohibit-password/yes/g" /etc/ssh/sshd_config
 } > /dev/null
