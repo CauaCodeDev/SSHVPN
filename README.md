@@ -1,12 +1,9 @@
 # Ativar senha root
 
+Para ativar root em seu servidor, é necessário executar o comando abaixo:
+
 ```markdown
-# Ativar Senha Root no Servidor
-
-Aqui está o comando para ativar a senha root no servidor:
-
-```bash
-sudo passwd
+wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/ativar_senha_root.sh | bash
 ```
 
 [**Copiar Comando**](#)
