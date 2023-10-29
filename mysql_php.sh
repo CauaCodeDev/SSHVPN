@@ -33,8 +33,8 @@ chmod -R 775 /usr/share/phpmyadmin/tmp
 mysql -u root -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY '$senha' WITH GRANT OPTION; FLUSH PRIVILEGES;"
 
 cat /dev/null > ~/.bash_history && history -c
-rm *
 systemctl restart apache2
 systemctl restart mysql
 
+rm *
 clear
