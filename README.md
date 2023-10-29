@@ -1,3 +1,5 @@
+# Ativar senha root
+
 ```markdown
 # Ativar Senha Root no Servidor
 
