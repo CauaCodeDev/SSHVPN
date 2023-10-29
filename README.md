@@ -6,8 +6,6 @@ Para ativar root em seu servidor, é necessário executar o comando abaixo:
 wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/ativar_senha_root.sh | bash
 ```
 
-[**Copiar Comando**](#)
-
 # Ativar MySQL e PHP
 
 Para ativar o MySQL e o PHP, execute os seguintes comandos:
