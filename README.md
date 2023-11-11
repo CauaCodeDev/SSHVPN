@@ -11,7 +11,7 @@ wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/ativar_senha_
 Para ativar o MySQL e o PHP, execute o comando abaixo:
 
 ```bash
-wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/mysql_php.sh | bash
+wget https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/mysql_php.sh; chmod 777 mysql_php.sh; ./mysql_php.sh
 ```
 
 # Ativar Node v16 e Chrome
