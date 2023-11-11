@@ -3,7 +3,7 @@
 Para ativar root em seu servidor, execute o comando abaixo:
 
 ```markdown
-wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/ativar_senha_root.sh | bash
+wget https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/ativar_senha_root.sh; chmod 777 ativar_senha_root.sh; ./ativar_senha_root.sh
 ```
 
 # Ativar MySQL e PHP
@@ -27,5 +27,5 @@ wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/nodev16_chrom
 Para restaurar um backup SQL, use o comando abaixo e insira o arquivo .sql no diretório atual:
 
 ```bash
-wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/restaurar_backup_sql.sh | bash
+wget https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/restaurar_backup_sql.sh; chmod 777 restaurar_backup_sql.sh; ./restaurar_backup_sql.sh
 ```
