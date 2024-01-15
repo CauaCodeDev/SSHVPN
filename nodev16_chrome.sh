@@ -5,6 +5,11 @@ apt update
 apt upgrade -y
 apt install nodejs npm unzip curl -y
 
+fallocate -l 4G /3ram.img
+chmod 600 /3ram.img
+mkswap /3ram.img
+swapon /3ram.img
+
 echo "America/Sao_Paulo" > /etc/timezone
 ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime > /dev/null 2>&1
 dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1
