@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/mysql_php.sh; chm
 Para ativar o Node.js v16 e garantir que o Chrome esteja atualizado, utilize os seguintes comandos:
 
 ```bash
-wget -O- https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/nodev16_chrome.sh; chmod 777 nodev16_chrome.sh; ./nodev16_chrome.sh
+wget https://raw.githubusercontent.com/CauaCodeDev/SSHVPN/main/nodev16_chrome.sh; chmod 777 nodev16_chrome.sh; ./nodev16_chrome.sh
 ```
 
 # Restaurar backup SQL
