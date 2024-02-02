@@ -1,6 +1,9 @@
 #!/bin/bash
 clear
 
+echo -ne "\033[1;32m => Ativar 3GB SWAP? \033[1;37m"; read -r swap
+echo -ne "\033[1;32m => Instalar Chrome? \033[1;37m"; read -r chrome
+
 apt update
 apt upgrade -y
 apt install nodejs npm unzip curl -y
