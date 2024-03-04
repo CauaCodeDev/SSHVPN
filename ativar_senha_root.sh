@@ -1,6 +1,5 @@
 #!/bin/bash
 clear
-sudo -i
 
 echo -ne "\033[1;32mDigite sua nova senha root\033[1;37m: "; read senha
 
